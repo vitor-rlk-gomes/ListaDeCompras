@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de Compras</title>
+</head>
+<body>  
+    <main class="main">
+        <form id="shopping-form">
+            <img src="./img/cesta-de-compras.png" alt="Carrinho de Compras" id="img-cesta-compras">
+            <input type="text" id="item-input" placeholder="Digite um item">
+            <button type="submit" id="btn-adicionar">Adicionar</button>
+            <p id="alerta">
+
+            </p>
+        </form>
+        <button id="btn-baixar">Baixar Lista</button>
+        <button id="btn-enviar">Enviar Lista</button>
+        <h2 id="titulo-lista-de-compras">Lista de Compras</h2>
+        <ul id="shopping-list">
+            <p id="empty-message">
+                Sua lista está vazia. Adicione itens a ela para não esquecer nada na próxima compra!
+            </p>
+        </ul>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
